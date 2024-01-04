@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Nixon-fj.github.io/nixonfernandez/build",
+  "homepage": "https://Nixon-fj.github.io/nixonfernandez/dist",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
