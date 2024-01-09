@@ -1,0 +1,8 @@
+{
+    "loginForm": {
+        "placeholderUsername": "Username",
+        "placeholderPassword": "Password",
+        "rememberMe": "Remenber me",
+        "login": "login"
+    }
+}
