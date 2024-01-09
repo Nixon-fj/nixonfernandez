@@ -1,0 +1,13 @@
+.languageSelector{
+    background-color: $color-gray;
+    color: $color-purple;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    option{
+        color: $color-rose;
+        &:focus{
+            background-color: $color-black;
+        }
+    }
+}

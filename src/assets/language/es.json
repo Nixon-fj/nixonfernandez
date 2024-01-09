@@ -1,8 +1,58 @@
 {
-    "loginForm": {
-        "placeholderUsername": "Username",
-        "placeholderPassword": "Password",
-        "rememberMe": "Remenber me",
-        "login": "login"
+    "header": [
+        {
+            "name": "Proyectos",
+            "url": "/proyects"
+        },
+        {
+            "name": "currículum",
+            "url": "/"
+        },
+        {
+            "name": "Contacto",
+            "url": "#contact"
+        }
+    ],
+    "footer": [
+        {
+            "name": "Teléfono",
+            "data": "+506 83149008"
+        },
+        {
+            "name": "Correo",
+            "data": "nixon.fernandezjimenez@gmail.com"
+        },
+        {
+            "name": "Sígueme",
+            "data": "redes"
+        },
+        {
+            "name": "Política de privacidad",
+            "data": "© 2024 Creado por Nixon Fernandez Jimenez"
+        }
+    ],
+    "sidebarOptions": [
+        {
+            "name": "Inicio",
+            "url": "/"
+        },
+        {
+            "name": "Experiencia laboral",
+            "url": "#experience"
+        },
+        {
+            "name": "Educación",
+            "url": "#education"
+        },
+        {
+            "name": "Contacto",
+            "url": "#contact"
+        }
+    ],
+    "presentation": {
+        "name": "Nixon Fernández Jiménez",
+        "carrer": "desarrollador web",
+        "aboutMe": "Mi enfoque proactivo se refleja en la creación de interfaces y sitios web eficientes. He colaborado en equipos multidisciplinarios para el desarrollo de plataformas web, destacándome por la entrega oportuna de soluciones innovadoras. Mi capacidad para comunicarme efectivamente y mi pasión por la tecnología impulsan mi búsqueda de desafíos donde pueda aplicar y ampliar mis habilidades en desarrollo web.",
+        "downloadResume": "Currículum"
     }
 }

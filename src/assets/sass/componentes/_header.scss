@@ -1,0 +1,34 @@
+.header{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $color-black;
+    padding: 1rem 2rem;
+    margin: 0;
+    @include displayFlex(center);
+    &_logo{
+        width: 60%;
+        color: $text-blue;
+        font-size: $text-large;
+        font-weight: 600;
+    }
+    ul{
+        @include displayFlex(space-around);
+        min-width: 20%;
+        li{
+            padding: 0 0.5rem;
+            border-right: 2px solid $color-white;
+            a{
+                color: $text-white;
+                &:hover{
+                    color: $color-purple;
+                }
+            }
+            &:last-child{
+                border: none;
+            }
+        }
+    }
+}

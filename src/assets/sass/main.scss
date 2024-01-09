@@ -1,7 +1,18 @@
 @import './variables/variables';
 @import './base/base';
+@import './base/mixins';
+@import './componentes/header';
+@import './componentes/footer';
+@import './componentes/sidebar';
+@import './componentes/languageSelector';
+@import './componentes/presentation';
+@import './componentes/buttons';
 
-:root{
-    background-color: var(--black-color);
-    color: var(--text-white);
+body {
+    background: $color-gray;
+    color: $text-white;
+}
+.container{
+    margin-top: 5rem;
+    @include displayFlex(center, start, nowrap, row);
 }

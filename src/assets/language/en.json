@@ -1,8 +1,58 @@
 {
-    "loginForm": {
-        "placeholderUsername": "Username",
-        "placeholderPassword": "Password",
-        "rememberMe": "Remenber me",
-        "login": "login"
+    "header": [
+        {
+            "name": "Proyects",
+            "url": "/proyects"
+        },
+        {
+            "name": "Resume",
+            "url": "/"
+        },
+        {
+            "name": "Contact",
+            "url": "#contact"
+        }
+    ],
+    "footer": [
+        {
+            "name": "Phone",
+            "data": "+506 83149008"
+        },
+        {
+            "name": "Email",
+            "data": "nixon.fernandezjimenez@gmail.com"
+        },
+        {
+            "name": "Follow me",
+            "data": "redes"
+        },
+        {
+            "name": "Privacy Policy",
+            "data": "© 2024 Created by Nixon Fernandez Jimenez"
+        }
+    ],
+    "sidebarOptions": [
+        {
+            "name": "Home",
+            "url": "/"
+        },
+        {
+            "name": "Experience labor",
+            "url": "#experience"
+        },
+        {
+            "name": "Education",
+            "url": "#education"
+        },
+        {
+            "name": "Contact",
+            "url": "#contact"
+        }
+    ],
+    "presentation": {
+            "name": "Nixon Fernandez J.",
+            "carrer": "web developer",
+            "aboutMe": "My proactive approach is reflected in the creation of efficient interfaces and websites. I have collaborated in multidisciplinary teams to develop web platforms, standing out for the timely delivery of innovative solutions. My ability to communicate effectively and my passion for technology drive my search for challenges where I can apply and expand my skills in web development.",
+            "downloadResume": "Download Resume"
     }
 }
