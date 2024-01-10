@@ -10,7 +10,7 @@ const LanguageSelector: React.FC = () => {
 
     return (
         <>
-            <select className='languageSelector' onChange={(e) => changeLanguage(e.target.value)} value={i18n.language}>
+            <select className='languageSelector' onChange={(e) => changeLanguage(e.target.value)} value={i18n.language} aria-labelledby="language">
                 <option value="en">En</option>
                 <option value="es">Es</option>
             </select>
