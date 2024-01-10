@@ -11,8 +11,8 @@
 
 @mixin displayGrid($width, $gap) {
     display:  grid;
-    grid-gap: $gap;
     grid-template-columns: repeat(auto-fit, minmax($width, 1fr));
+    grid-gap: $gap;
     grid-template-rows: auto;
     justify-content: center;
 }

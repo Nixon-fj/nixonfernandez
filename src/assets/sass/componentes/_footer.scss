@@ -1,18 +1,22 @@
-.footer{
+.footer {
     background-color: $color-black;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0;
     color: $text-blue;
-    ul{
+
+    &_container {
         @include displayFlex(space-around);
+
+        &-subTitle {
+            padding: 0.5rem 0;
+            font-size: $text-base;
+            font-weight: 800;
+        }
+
+        &-content {
+            font-size: $text-small;
+            color: $text-ligth-blue;
+        }
     }
-    &_subTitle{
-        padding: 0.5rem 0;
-        font-size: $text-base;
-        font-weight: 800;
-    }
-    &_content{
-        font-size: $text-small;
-        color: $text-ligth-blue;
-    }
+
 }

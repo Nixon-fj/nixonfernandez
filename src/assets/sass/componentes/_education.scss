@@ -1,0 +1,27 @@
+.education{
+    @include displayFlex(start, start);
+    padding: 2rem;
+    margin-bottom: 4rem;
+
+    h2{
+        font-size: 2.5rem;
+        margin-right: auto;
+    }
+
+    &_data{
+        padding: 0 2rem;
+        margin-bottom: 2.5rem;
+        @include displayFlex(end);
+
+        &-date{
+            margin-right: 2rem;
+        }
+        h2{
+            font-size: $text-large;
+            margin-bottom: 0.5rem;
+        }
+        h3{
+            font-size: $text-base;
+        }
+    }
+}

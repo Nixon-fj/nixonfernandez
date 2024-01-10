@@ -1,0 +1,39 @@
+.previewProyects {
+    padding: 2rem;
+    margin-bottom: 4rem;
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    a{
+        color: $text-ligth-blue;
+        &:hover{
+            color: $color-purple;
+        }
+    }
+
+    &_container{
+        @include displayGrid(200px, 2rem);
+        a{
+            border: 1px solid $color-purple;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            transition: 0.5s;
+            &:hover{
+                border-color: $color-blue;
+                scale: 1.1;
+            }
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

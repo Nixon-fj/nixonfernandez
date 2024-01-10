@@ -14,11 +14,11 @@ const Header: React.FC = () => {
 
     return <>
         <footer className="footer">
-            <ul>
+            <ul className='footer_container'>
                 {headerOptions.map((option: FooterOption, index: number) => (
                     <li key={index}>
-                        <p className='footer_subTitle'>{option.name}</p>
-                        <p className='footer_content'>{option.data}</p>
+                        <p className='footer_container-subTitle'>{option.name}</p>
+                        <p className='footer_container-content'>{option.data}</p>
                     </li>
                 ))}
             </ul>

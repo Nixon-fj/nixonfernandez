@@ -7,27 +7,31 @@
     background-color: $color-black;
     padding: 1rem 2rem;
     margin: 0;
-    @include displayFlex(center);
+
+    &_container{
+        max-width: 1440px;
+        @include displayFlex(space-around);
+    }
     &_logo{
-        width: 60%;
         color: $text-blue;
         font-size: $text-large;
         font-weight: 600;
     }
+    
     ul{
+
         @include displayFlex(space-around);
         min-width: 20%;
+
         li{
-            padding: 0 0.5rem;
-            border-right: 2px solid $color-white;
+            padding: 0 1rem;
+
             a{
                 color: $text-white;
+
                 &:hover{
                     color: $color-purple;
                 }
-            }
-            &:last-child{
-                border: none;
             }
         }
     }

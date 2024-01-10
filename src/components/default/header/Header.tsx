@@ -15,15 +15,17 @@ const Header: React.FC = () => {
 
     return <>
         <header className="header">
-            <a href="/" className='header_logo'>Nixon Fernández</a>
-            <LanguageSelector />
-            <ul>
-                {headerOptions.map((option: HeaderOption, index: number) => (
-                    <li key={index}>
-                        <a href={option.url}>{option.name}</a>
-                    </li>
-                ))}
-            </ul>
+            <nav className='header_container'>
+                <a href="/" className='header_logo'>Nixon Fernández</a>
+                <ul>
+                    {headerOptions.map((option: HeaderOption, index: number) => (
+                        <li key={index}>
+                            <a href={option.url}>{option.name}</a>
+                        </li>
+                    ))}
+                </ul>
+                <LanguageSelector />
+            </nav>
         </header>
     </>;
 };
