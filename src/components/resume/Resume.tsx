@@ -3,7 +3,7 @@ import Presentation from './Presentation';
 import Education from './Edutaction';
 import Skills from './Skills';
 import Experience from './Experience';
-import PreviewProyects from './previewProyects';
+import PreviewProyects from './PreviewProyects';
 
 const Resume: React.FC = () => {
     return <div>
