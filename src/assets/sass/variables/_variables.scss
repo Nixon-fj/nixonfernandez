@@ -1,6 +1,31 @@
-:root {
-    --white-color : #fff;
-    --black-color : #000;
-    --text-white: #fff;
-    --text-black: #000;
-}
+/* Colors */
+$color-white : #fff;
+$color-black : #000;
+$color-ligth-blue : #19B2D2;
+$color-blue : #1387EA;
+$color-purple : #AB47BA;
+$color-rose : #D22F60;
+$color-orange : #FB3C01;
+$color-gray : #111;
+$color-ligth-gray: #E7EAED;
+$color-dark-withe: #F2F3F2;
+
+$text-white : #fff;
+$text-black : #000;
+$text-ligth-blue : #19B2D2;
+$text-blue : #1387EA;
+
+/* Breakpoints */
+$s_phone : 325px;
+$m_phone : 425px;
+$s_tablet : 625px;
+$m_tablet : 844px;
+$s_desktop : 1024px;
+$m_desktop : 1200px;
+
+/* Font-size */
+$text-xsmall: 0.7rem;
+$text-small: 0.8rem;
+$text-base: 1rem;
+$text-medium: 1.2rem;
+$text-large: 1.5rem;

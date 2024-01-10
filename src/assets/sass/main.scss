@@ -1,7 +1,17 @@
 @import './variables/variables';
 @import './base/base';
+@import './base/mixins';
+@import './componentes/buttons';
+@import './componentes/header';
+@import './componentes/footer';
+@import './componentes/languageSelector';
+@import './componentes/presentation';
+@import './componentes/education';
+@import './componentes/skills';
+@import './componentes/experience';
+@import './componentes/previewProyects';
 
-:root{
-    background-color: var(--black-color);
-    color: var(--text-white);
+body {
+    background: $color-gray;
+    color: $text-white;
 }

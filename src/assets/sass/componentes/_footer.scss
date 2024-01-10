@@ -1,0 +1,28 @@
+.footer {
+    background-color: $color-black;
+    padding: 1rem;
+    color: $text-blue;
+    @include media-query($s_tablet){
+        padding: 2rem;
+    }
+
+    &_container {
+        &-subTitle {
+            padding: 0.5rem 0;
+            font-size: $text-base;
+            font-weight: 800;
+        }
+
+        &-content {
+            font-size: $text-small;
+            color: $text-ligth-blue;
+            margin-bottom: 1rem;
+        }
+    }
+
+    @include media-query($m_tablet){
+        &_container {
+            @include displayFlex(space-around);
+        }
+    }
+}

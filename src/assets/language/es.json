@@ -1,8 +1,151 @@
 {
-    "loginForm": {
-        "placeholderUsername": "Username",
-        "placeholderPassword": "Password",
-        "rememberMe": "Remenber me",
-        "login": "login"
+    "header": [
+        {
+            "name": "Inicio",
+            "url": "/"
+        },
+        {
+            "name": "Educación",
+            "url": "#education"
+        },
+        {
+            "name": "Competencias",
+            "url": "#skills"
+        },
+        {
+            "name": "Experiencia",
+            "url": "#experience"
+        },
+        {
+            "name": "Proyectos",
+            "url": "/proyects"
+        },
+        {
+            "name": "Contacto",
+            "url": "#contact"
+        }
+    ],
+    "footer": [
+        {
+            "name": "Teléfono",
+            "data": "+506 83149008"
+        },
+        {
+            "name": "Correo",
+            "data": "nixon.fernandezjimenez@gmail.com"
+        },
+        {
+            "name": "Sígueme",
+            "data": "redes"
+        },
+        {
+            "name": "Política de privacidad",
+            "data": "© 2024 Creado por Nixon Fernandez Jimenez"
+        }
+    ],
+    "presentation": {
+        "name": "Nixon Fernández Jiménez",
+        "carrer": "Desarrollador web",
+        "aboutMe": "Mi enfoque proactivo se refleja en la creación de interfaces y sitios web eficientes. He colaborado en equipos multidisciplinarios para el desarrollo de plataformas web, destacándome por la entrega oportuna de soluciones innovadoras. Mi capacidad para comunicarme efectivamente y mi pasión por la tecnología impulsan mi búsqueda de desafíos donde pueda aplicar y ampliar mis habilidades en desarrollo web.",
+        "downloadResume": "Currículum"
+    },
+    "education": [
+        {
+            "date": "2018-2022",
+            "intitution": "Universidad de Costa Rica",
+            "qualification": "Bachillerato, Informática y tecnología multimedia"
+        }
+    ],
+    "experience": [
+        {
+            "date": "2022-2024",
+            "company": "Business Solutions",
+            "job": "Desarrollador Front-end",
+            "tasks":[
+                {
+                    "task": "Developing and maintaining websites and interfaces for multiple projects, using various technologies such as Angular, WordPress, and PHP."
+                },
+                {
+                    "task": "Ensuring the efficiency, functionality, and continuous updating of the company's internal sites and interfaces."
+                },
+                {
+                    "task": " Collaborating closely with team members as well as personnel from other areas of the company to ensure the completion and success of the projects."
+                },
+                {
+                    "task": " Creating platforms with Vue for the rapid creation of websites."
+                },
+                {
+                    "task": "Developing internal company systems using React."
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "skill": "Responsive web design"
+        },
+        {
+            "skill": "HTML - Markdown"
+        },
+        {
+            "skill": "css - sass"
+        },
+        {
+            "skill": "JAVASCRIPT"
+        },
+        {
+            "skill": "TYPESCRIPT"
+        },
+        {
+            "skill": "VUE "
+        },
+        {
+            "skill": "REACT JS"
+        },
+        {
+            "skill": "ANGULAR"
+        },
+        {
+            "skill": "JAVA"
+        },
+        {
+            "skill": "C#"
+        },
+        {
+            "skill": "PHP"
+        },
+        {
+            "skill": "WORDPRESS"
+        },
+        {
+            "skill": "GIT - GITLAB - BITBUCKET"
+        },
+        {
+            "skill": "AZURE"
+        },
+        {
+            "skill": "NODE JS"
+        },
+        {
+            "skill": "SQL - NOSQL"
+        },
+        {
+            "skill": "Adobe Suite - Figma"
+        },
+        {
+            "skill": "AJAX - GRAPHQL"
+        },
+        {
+            "skill": "WEBSOCKETS"
+        },
+        {
+            "skill": "FIREBASE"
+        }
+    ],
+    "previewProyects":{
+        "sectionName": "Portafolio",
+        "sectionText": "Trabajos recientes",
+        "seeMore": "Ver más",
+        "url": "/proyects"
     }
 }
