@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "nixon-fernandez-jimenez",
     "public": "public",
     "ignore": [
       "firebase.json",
