@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import pokerfran from '../../assets/images/pokerfran.jpg';
-import moneybet from '../../assets/images/moneybet.jpg';
-import razr from '../../assets/images/razr.jpg';
+import pokerfran from '../../assets/images/sites/pokerfran.jpg';
+import moneybet from '../../assets/images/sites/moneybet.jpg';
+import razr from '../../assets/images/sites/razr.jpg';
 
 const PreviewProyects: React.FC = () => {
 

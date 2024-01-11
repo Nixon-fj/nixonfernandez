@@ -6,23 +6,19 @@
         },
         {
             "name": "Educación",
-            "url": "#education"
+            "url": "/#education"
         },
         {
             "name": "Competencias",
-            "url": "#skills"
+            "url": "/#skills"
         },
         {
             "name": "Experiencia",
-            "url": "#experience"
+            "url": "/#experience"
         },
         {
-            "name": "Proyectos",
-            "url": "/proyects"
-        },
-        {
-            "name": "Contacto",
-            "url": "#contact"
+            "name": "Portafolio",
+            "url": "/portfolio"
         }
     ],
     "footer": [
@@ -35,12 +31,8 @@
             "data": "nixon.fernandezjimenez@gmail.com"
         },
         {
-            "name": "Sígueme",
-            "data": "redes"
-        },
-        {
             "name": "Política de privacidad",
-            "data": "© 2024 Creado por Nixon Fernandez Jimenez"
+            "data": "Creado por Nixon Fernandez Jimenez © 2024"
         }
     ],
     "presentation": {
@@ -54,6 +46,21 @@
             "date": "2018-2022",
             "intitution": "Universidad de Costa Rica",
             "qualification": "Bachillerato, Informática y tecnología multimedia"
+        },
+        {
+            "date": "2021-2021",
+            "intitution": "Cisco Networking Academy",
+            "qualification": "NDG Linux I"
+        },
+        {
+            "date": "2016-2016",
+            "intitution": "Cisco Networking Academy",
+            "qualification": "CCNA 1 Switch and Routing, Introduction to networks"
+        },
+        {
+            "date": "2015-2015",
+            "intitution": "Cisco Networking Academy",
+            "qualification": "Instructor IT Essentials, PC Hardware and Software"
         }
     ],
     "experience": [
@@ -146,6 +153,6 @@
         "sectionName": "Portafolio",
         "sectionText": "Trabajos recientes",
         "seeMore": "Ver más",
-        "url": "/proyects"
+        "url": "/portfolio"
     }
 }

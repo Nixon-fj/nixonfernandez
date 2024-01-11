@@ -17,8 +17,8 @@ const Experience: React.FC = () => {
 
     const experience: experienceText[] = t('experience', { returnObjects: true });
 
-    return <div className='experience' id='#experience'>
-        <h2>Experience Labor</h2>
+    return <div className='experience'>
+        <h2 id='experience'>Experience Labor</h2>
         <div>
             {experience.map((experience: experienceText, index: number) => (
                 <div key={index} className='experience_data'>

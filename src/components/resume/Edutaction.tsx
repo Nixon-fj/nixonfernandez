@@ -11,8 +11,8 @@ const Education: React.FC = () => {
     }
     const education: educationText[] = t('education', { returnObjects: true });
 
-    return <div className='education' id='#education'>
-        <h2>Education</h2>
+    return <div className='education'>
+        <h2 id='education'>Education</h2>
         <div>
             {education.map((education: educationText, index: number) => (
                 <div key={index} className='education_data'>

@@ -6,23 +6,19 @@
         },
         {
             "name": "Education",
-            "url": "#education"
+            "url": "/#education"
         },
         {
             "name": "Skills",
-            "url": "#skills"
+            "url": "/#skills"
         },
         {
-            "name": "Experience labor",
-            "url": "#experience"
+            "name": "Experience",
+            "url": "/#experience"
         },
         {
-            "name": "Proyects",
-            "url": "/proyects"
-        },
-        {
-            "name": "Contact",
-            "url": "#contact"
+            "name": "Portfolio",
+            "url": "/portfolio"
         }
     ],
     "footer": [
@@ -35,12 +31,8 @@
             "data": "nixon.fernandezjimenez@gmail.com"
         },
         {
-            "name": "Follow me",
-            "data": "redes"
-        },
-        {
             "name": "Privacy Policy",
-            "data": "© 2024 Created by Nixon Fernandez Jimenez"
+            "data": "Created by Nixon Fernandez Jimenez © 2024"
         }
     ],
     "presentation": {
@@ -54,6 +46,21 @@
             "date": "2018-2022",
             "intitution": "Universidad de Costa Rica",
             "qualification": "Bachillerato, Informática y tecnología multimedia"
+        },
+        {
+            "date": "2021-2021",
+            "intitution": "Cisco Networking Academy",
+            "qualification": "NDG Linux I"
+        },
+        {
+            "date": "2016-2016",
+            "intitution": "Cisco Networking Academy",
+            "qualification": "CCNA 1 Switch and Routing, Introduction to networks"
+        },
+        {
+            "date": "2015-2015",
+            "intitution": "Cisco Networking Academy",
+            "qualification": "Instructor IT Essentials, PC Hardware and Software"
         }
     ],
     "experience": [
@@ -146,6 +153,6 @@
             "sectionName": "Portfolio",
             "sectionText": "My recent works",
             "seeMore": "See more",
-            "url": "/proyects"
+            "url": "/portfolio"
         }
 }

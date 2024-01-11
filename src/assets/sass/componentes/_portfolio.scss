@@ -1,0 +1,27 @@
+.portfolio{
+    padding: 1rem;
+    margin-top: 4rem;
+    @include media-query($m_tablet){
+        padding: 2rem;
+    }
+    &_container{
+        @include displayGrid(200px, 1rem);
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        a{
+            border: 1px solid $color-purple;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            transition: 0.5s;
+            &:hover{
+                border-color: $color-blue;
+                scale: 1.1;
+            }
+        }
+        @include media-query($s_tablet){
+            @include displayGrid(250px, 2rem);
+        }
+    }
+}

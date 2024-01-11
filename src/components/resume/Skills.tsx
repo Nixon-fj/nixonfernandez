@@ -10,8 +10,8 @@ const Skills: React.FC = () => {
     }
     const skill: skillsText[] = t('skills', { returnObjects: true });
 
-    return <div className='skills' id='#skills'>
-        <h2>Technical Skills</h2>
+    return <div className='skills'>
+        <h2 id='skills'>Technical Skills</h2>
         <div className='skills_container'>
             {skill.map((skill: skillsText, index: number) => (
                 <div key={index} className='skills_container-skill'>

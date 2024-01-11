@@ -15,7 +15,7 @@
     }
 
     &_data{
-        
+        margin-bottom: 1.5rem;
         h2{
             font-size: $text-medium;
             margin-bottom: 0.5rem;
@@ -24,7 +24,7 @@
             font-size: $text-base;
         }
         @include media-query($s_tablet){
-            @include displayFlex(end);
+            @include displayFlex(start);
             padding: 0 2rem;
             &-date{
                 margin-right: 2rem;
