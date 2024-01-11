@@ -1,38 +1,122 @@
-.header{
+.header {
     position: fixed;
     z-index: 100;
     top: 0;
     left: 0;
     width: 100%;
     background-color: $color-black;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
     margin: 0;
 
-    &_container{
+    @include media-query($m_tablet) {
+        padding: 1rem 0rem;
+    }
+
+    &_container {
         max-width: 1440px;
         @include displayFlex(space-around);
     }
-    &_logo{
+
+    &_logo {
         color: $text-blue;
-        font-size: $text-large;
+        font-size: $text-medium;
         font-weight: 600;
+
+        @include media-query($m_tablet) {
+            font-size: $text-medium;
+        }
     }
-    
-    ul{
 
-        @include displayFlex(space-around);
-        min-width: 20%;
+    &_nav {
+        position: absolute;
+        width: 90%;
+        height: 100vh;
+        top: 0;
+        left: -1000px;
+        background-color: #00000066;
+        backdrop-filter: blur(5px);
+        padding: 1rem;
+        transition: left 1s;
 
-        li{
-            padding: 0 1rem;
+        &-open {
+            left: 0;
+        }
 
-            a{
+        @include media-query($s_phone) {
+            width: 93%;
+        }
+
+        @include media-query($s_tablet) {
+            width: 50%;
+        }
+
+        @include media-query($m_tablet) {
+            width: 50%;
+            height: auto;
+            background-color: none;
+            backdrop-filter: none;
+            position: initial;
+            margin: 0;
+            padding: 0;
+            @include displayFlex(center, center);
+        }
+
+        li {
+            width: 90%;
+            max-width: 100%;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid $color-blue;
+
+            @include media-query($m_tablet) {
+                padding: 0 0.5rem;
+                width: initial;
+                font-size: $text-small;
+                border: none;
+                margin: 0;
+
+                &:first-of-type {
+                    display: none;
+                }
+            }
+            @include media-query(1080px) {
+                font-size: $text-base;
+            }
+
+            a {
                 color: $text-white;
 
-                &:hover{
+                &:hover {
                     color: $color-purple;
                 }
             }
+
+            &:first-of-type {
+                max-width: 25px;
+                border: none;
+                cursor: pointer;
+                padding: 0.2rem 0.3rem;
+                margin-left: auto;
+                text-align: center;
+                font-weight: 800;
+                font-size: $text-medium;
+                border: 2px solid $color-purple;
+                color: $color-purple;
+                border-radius: 3rem;
+            }
+        }
+    }
+
+    &_menu-toggle {
+        content: "";
+        display: block;
+        width: 2em;
+        height: 1.5em;
+        cursor: pointer;
+        background-image: linear-gradient($color-blue 20%, transparent 20%, transparent 40%, $color-blue 40%, $color-blue 60%, transparent 60%, transparent 80%, $color-blue 80%);
+
+        @include media-query($m_tablet) {
+            display: none;
         }
     }
 }

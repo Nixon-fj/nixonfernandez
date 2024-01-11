@@ -1,15 +1,15 @@
 .previewProyects {
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 4rem;
 
     h2 {
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
 
     h3 {
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
+        font-size: $text-medium;
+        margin-bottom: 1rem;
     }
 
     a{
@@ -20,7 +20,7 @@
     }
 
     &_container{
-        @include displayGrid(200px, 2rem);
+        @include displayGrid(200px, 1rem);
         a{
             border: 1px solid $color-purple;
             border-radius: 0.5rem;
@@ -34,6 +34,12 @@
         img{
             max-width: 100%;
             height: auto;
+        }
+    }
+    @include media-query($s_tablet){
+        padding: 2rem;
+        &_container{
+            @include displayGrid(200px, 2rem);
         }
     }
 }

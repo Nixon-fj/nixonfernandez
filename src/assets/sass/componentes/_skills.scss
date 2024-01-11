@@ -1,23 +1,35 @@
 .skills {
-    padding: 2rem;
+    padding: 0 1rem;
     margin-bottom: 4rem;
 
     h2 {
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
-    &_container{
+
+    &_container {
         @include displayGrid(250px, 1rem);
-        &-skill{
+
+        &-skill {
             padding: 1rem;
             border-bottom: 1px solid $color-purple;
-            &:nth-child(odd){
+
+            &:nth-child(odd) {
                 border-bottom: 1px solid $color-blue;
             }
 
-            p{
+            p {
                 text-transform: uppercase;
             }
+        }
+    }
+
+    @include media-query($s_tablet) {
+        padding: 2rem;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
         }
     }
 }
