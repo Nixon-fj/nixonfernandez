@@ -2,6 +2,12 @@
   "hosting": {
     "site": "nixon-fernandez-jimenez",
     "public": "dist",
+    "rewrites": [
+      {
+        "source": "/portfolio",
+        "destination": "/portfolio"
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
