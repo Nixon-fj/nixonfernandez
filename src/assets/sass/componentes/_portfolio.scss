@@ -15,9 +15,11 @@
             border-radius: 0.5rem;
             overflow: hidden;
             transition: 0.5s;
-            &:hover{
-                border-color: $color-blue;
-                scale: 1.1;
+            @include media-query($s_tablet){
+                &:hover{
+                    border-color: $color-blue;
+                    scale: 1.1;
+                }
             }
         }
         @include media-query($s_tablet){

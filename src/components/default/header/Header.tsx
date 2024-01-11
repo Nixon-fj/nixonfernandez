@@ -27,7 +27,7 @@ const Header: React.FC = () => {
                 <ul className={`header_nav ${isOpen ? 'header_nav-open' : ''}`}>
                     <li onClick={toggleMenu}>X</li>
                     {headerOptions.map((option: HeaderOption, index: number) => (
-                        <li key={index}>
+                        <li key={index} onClick={toggleMenu}>
                             <a href={option.url}>{option.name}</a>
                         </li>
                     ))}
