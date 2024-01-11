@@ -6,15 +6,10 @@ import Portfolio from "../pages/Portfolio";
 
 export const AppRouter = () => {
   return (
-    <>  
+    <>
       <Routes>
-        <Route path="*" element={
-              <Routes>
-                <Route path="/" element={ <Home />} />
-                <Route path="/portfolio" element={ <Portfolio />} />
-              </Routes>
-          } 
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </>
   )

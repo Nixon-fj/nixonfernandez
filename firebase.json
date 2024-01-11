@@ -4,8 +4,12 @@
     "public": "dist",
     "rewrites": [
       {
-        "source": "/portfolio",
-        "destination": "/portfolio"
+        "source": "/404",
+        "destination": "/404.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ],
     "ignore": [
