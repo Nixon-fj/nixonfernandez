@@ -1,6 +1,11 @@
-.btn{
+.btn {
     color: $text-white;
+    cursor: pointer;
     padding: 1rem;
     border: 1px solid $color-ligth-blue;
     border-radius: 0.5rem;
+    transition: 0.8s;
+    &:hover {
+        border-color: $color-purple;
+    }
 }

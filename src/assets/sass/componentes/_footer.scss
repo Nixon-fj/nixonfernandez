@@ -6,6 +6,7 @@
     &_container {
         margin: 0;
         padding: 1rem;
+
         &-subTitle {
             padding: 0.5rem 0;
             font-size: $text-base;
@@ -15,25 +16,35 @@
         &-content {
             font-size: $text-small;
             color: $text-ligth-blue;
-            @include media-query($m_tablet){
+
+            @include media-query($m_tablet) {
                 margin-top: 0.5rem;
             }
         }
 
-        &-socialNetwork{
+        &-socialNetwork {
             width: 120px;
             font-size: 28px;
             @include displayFlex();
-            a{
+
+            a {
                 color: $text-ligth-blue;
+
+                @include media-query($s_tablet) {
+                    :hover {
+                        color: $color-purple;
+                    }
+                }
             }
+
         }
-        @include media-query($s_tablet){
+
+        @include media-query($s_tablet) {
             padding: 2rem;
         }
     }
 
-    @include media-query($m_tablet){
+    @include media-query($m_tablet) {
         &_container {
             @include displayFlex(space-around, baseline);
         }
