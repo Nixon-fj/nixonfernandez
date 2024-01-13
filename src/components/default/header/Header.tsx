@@ -19,8 +19,7 @@ const Header: React.FC = () => {
         setIsOpen(!isOpen);
     };
 
-    return <>
-        <header className="header">
+    return <header className="header">
             <nav className='header_container'>
                 <div className="header_menu-toggle" onClick={toggleMenu}></div>
                 <a href="/" className='header_logo'>Nixon Fernández</a>
@@ -34,8 +33,7 @@ const Header: React.FC = () => {
                 </ul>
                 <LanguageSelector />
             </nav>
-        </header>
-    </>;
+        </header>;
 };
 
 export default Header;

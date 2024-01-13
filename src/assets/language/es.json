@@ -31,6 +31,23 @@
             "data": "nixon.fernandezjimenez@gmail.com"
         },
         {
+            "name": "Sígueme",
+            "data": [
+                {
+                    "icon": "fa-brands fa-linkedin",
+                    "url": "https://www.linkedin.com/in/nixon-fern%C3%A1ndez-jim%C3%A9nez-822010217/"
+                },
+                {
+                    "icon": "fa-brands fa-codepen",
+                    "url": "https://codepen.io/nixon-fj"
+                },
+                {
+                    "icon": "fa fa-github",
+                    "url": "https://github.com/Nixon-fj"
+                }
+            ]
+        },
+        {
             "name": "Política de privacidad",
             "data": "Creado por Nixon Fernandez Jimenez © 2024"
         }

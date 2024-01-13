@@ -65,7 +65,7 @@
             line-height: 1.8rem;
             font-size: $text-small;
         }
-        a{
+        button{
             font-size: $text-small;
         }
         @include media-query($s_phone){
@@ -78,7 +78,8 @@
                 line-height: 2rem;
                 font-size: $text-base;
             }
-            a{
+            button{
+                background-color: $color-black;
                 font-size: $text-base;
                 padding: 1rem 2rem;
             }

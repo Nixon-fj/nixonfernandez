@@ -16,13 +16,24 @@
         &-content {
             font-size: $text-small;
             color: $text-ligth-blue;
-            margin-bottom: 1rem;
+            @include media-query($m_tablet){
+                margin-top: 0.5rem;
+            }
+        }
+
+        &-socialNetwork{
+            width: 120px;
+            font-size: 28px;
+            @include displayFlex();
+            a{
+                color: $text-ligth-blue;
+            }
         }
     }
 
     @include media-query($m_tablet){
         &_container {
-            @include displayFlex(space-around);
+            @include displayFlex(space-around, baseline);
         }
     }
 }
