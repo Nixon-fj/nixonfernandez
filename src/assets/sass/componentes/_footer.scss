@@ -1,12 +1,11 @@
 .footer {
+    width: 100%;
     background-color: $color-black;
-    padding: 1rem;
     color: $text-blue;
-    @include media-query($s_tablet){
-        padding: 2rem;
-    }
 
     &_container {
+        margin: 0;
+        padding: 1rem;
         &-subTitle {
             padding: 0.5rem 0;
             font-size: $text-base;
@@ -28,6 +27,9 @@
             a{
                 color: $text-ligth-blue;
             }
+        }
+        @include media-query($s_tablet){
+            padding: 2rem;
         }
     }
 
