@@ -14,7 +14,7 @@ const Presentation: React.FC = () => {
     const { t } = useTranslation();
 
     const presentation: presentationText = t('presentation', { returnObjects: true });
-    const pdfUrl = '../../assets/files/devNixonFernandezJimenez.pdf';
+    const pdfUrl = '../devNixonFernandezJimenez.pdf';
 
     const handleDownloadPdf = async () => {
         try {
