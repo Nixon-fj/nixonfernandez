@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import bg from '../../assets/images/pattern.jpg';
 import { saveAs } from 'file-saver';
 
 interface presentationText {
