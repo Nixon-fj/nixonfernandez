@@ -36,7 +36,7 @@ const Presentation: React.FC = () => {
         </div>
         <div className="presentation_text">
             <p>{presentation.aboutMe}</p>
-            <button onClick={handleDownloadPdf} className='btn'>{presentation.downloadResume}</button>
+            <button onClick={handleDownloadPdf} onTouchEnd={handleDownloadPdf} className='btn'>{presentation.downloadResume}</button>
         </div>
     </div>;
 };
