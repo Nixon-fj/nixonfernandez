@@ -1,13 +1,25 @@
 .skills {
-    padding: 0 1rem;
+    position: relative;
     margin-bottom: 4rem;
 
     h2 {
+        position: absolute;
+        min-width: 250px;
+        background-color: $color-gray;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid $color-ligth-gray;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
         font-size: 2rem;
-        margin-bottom: 1rem;
     }
 
     &_container {
+        padding: 0 1rem;
+        margin-top: 3rem;
         @include displayGrid(250px, 1rem);
 
         &-skill {
@@ -25,8 +37,6 @@
     }
 
     @include media-query($s_tablet) {
-        padding: 2rem;
-
         h2 {
             font-size: 2rem;
             margin-bottom: 2rem;

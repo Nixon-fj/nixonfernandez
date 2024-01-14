@@ -11,8 +11,56 @@
 @import './componentes/experience';
 @import './componentes/previewProyects';
 @import './componentes/portfolio';
+@import './componentes/contactForm';
 
-body {
+body,
+html {
+    height: 100%;
+    margin: 0 auto;
     background: $color-gray;
     color: $text-white;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+    background-image: url("https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 60vh;
+}
+
+.bgimg-2 {
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("https://images.unsplash.com/photo-1619410283995-43d9134e7656?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url("https://images.unsplash.com/photo-1581646064576-6bc5a216f02c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 400px;
+}
+
+.bgimg-5 {
+    background-image: url("https://images.unsplash.com/photo-1670057046254-3b5095eb4b66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 400px;
+}
+
+.bgimg-6 {
+    background-color: $color-black;
+    min-height: 400px;
 }

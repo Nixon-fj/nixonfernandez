@@ -1,42 +1,44 @@
 .experience {
-    @include displayFlex(start, start);
-    padding: 1rem;
     margin-bottom: 4rem;
 
     h2 {
+        position: absolute;
+        min-width: 250px;
+        background-color: $color-gray;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid $color-ligth-gray;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
         font-size: 2rem;
-        margin-right: auto;
-        margin-bottom: 2rem
     }
 
     &_data {
-        &-date {
-            margin-bottom: 0.5rem;
-            margin-right: 2rem;
+        margin-top: 3rem;
+        padding: 0 1rem;
+
+        @include media-query($m_tablet) {
+            @include displayFlex(space-around);
         }
 
-        h2 {
+        h3 {
             font-size: $text-large;
             margin-bottom: 0.5rem;
         }
 
-        h3 {
+        span {
+            display: block;
             font-size: $text-medium;
-            margin-bottom: 0.5rem;
+            margin-right: 2rem;
+            margin-bottom: 1rem;
         }
 
         p {
-            max-width: 30rem;
             font-size: 0.9rem;
             line-height: 1.5rem;
-        }
-    }
-
-    @include media-query($s_tablet) {
-        padding: 2rem;
-
-        &_data {
-            @include displayFlex();
         }
     }
 }

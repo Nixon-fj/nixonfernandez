@@ -18,8 +18,13 @@ const PreviewProyects: React.FC = () => {
     const previewProyects: previewProyects = t('previewProyects', { returnObjects: true });
 
     return <div className='previewProyects'>
-        <h2>{previewProyects.sectionName}</h2>
+        <div className="bgimg-5">
+            <div className="caption">
+                <h2>{previewProyects.sectionName}</h2>
+            </div>
+        </div>
         <h3>{previewProyects.sectionText} <a href={previewProyects.url}>{previewProyects.seeMore}</a></h3>
+
         <div className='previewProyects_container'>
             <a href={previewProyects.url}>
                 <img src={razr} alt="preview image proyect" />

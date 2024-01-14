@@ -56,120 +56,129 @@
         "name": "Nixon Fernandez J.",
         "carrer": "web developer",
         "aboutMe": "My proactive approach is reflected in the creation of efficient interfaces and websites. I have collaborated in multidisciplinary teams to develop web platforms, standing out for the timely delivery of innovative solutions. My ability to communicate effectively and my passion for technology drive my search for challenges where I can apply and expand my skills in web development.",
-        "downloadResume": "See Resume"
+        "downloadResume": "Download CV"
     },
-    "education": [
-        {
-            "date": "2018-2022",
-            "intitution": "Universidad de Costa Rica",
-            "qualification": "Bachillerato, Informática y tecnología multimedia"
-        },
-        {
-            "date": "2021-2021",
-            "intitution": "Cisco Networking Academy",
-            "qualification": "NDG Linux I"
-        },
-        {
-            "date": "2016-2016",
-            "intitution": "Cisco Networking Academy",
-            "qualification": "CCNA 1 Switch and Routing, Introduction to networks"
-        },
-        {
-            "date": "2015-2015",
-            "intitution": "Cisco Networking Academy",
-            "qualification": "Instructor IT Essentials, PC Hardware and Software"
-        }
-    ],
-    "experience": [
-        {
-            "date": "2022-2024",
-            "company": "Business Solutions",
-            "job": "Front-end developer",
-            "tasks":[
-                {
-                    "task": "Developing and maintaining websites and interfaces for multiple projects, using various technologies such as Angular, WordPress, and PHP."
-                },
-                {
-                    "task": "Ensuring the efficiency, functionality, and continuous updating of the company's internal sites and interfaces."
-                },
-                {
-                    "task": " Collaborating closely with team members as well as personnel from other areas of the company to ensure the completion and success of the projects."
-                },
-                {
-                    "task": " Creating platforms with Vue for the rapid creation of websites."
-                },
-                {
-                    "task": "Developing internal company systems using React."
-                }
-            ]
-        }
-    ],
-    "skills": [
-        {
-            "skill": "Responsive web design"
-        },
-        {
-            "skill": "HTML - Markdown"
-        },
-        {
-            "skill": "css - sass"
-        },
-        {
-            "skill": "JAVASCRIPT"
-        },
-        {
-            "skill": "TYPESCRIPT"
-        },
-        {
-            "skill": "VUE "
-        },
-        {
-            "skill": "REACT JS"
-        },
-        {
-            "skill": "ANGULAR"
-        },
-        {
-            "skill": "JAVA"
-        },
-        {
-            "skill": "C#"
-        },
-        {
-            "skill": "PHP"
-        },
-        {
-            "skill": "WORDPRESS"
-        },
-        {
-            "skill": "GIT - GITLAB - BITBUCKET"
-        },
-        {
-            "skill": "AZURE"
-        },
-        {
-            "skill": "NODE JS"
-        },
-        {
-            "skill": "SQL - NOSQL"
-        },
-        {
-            "skill": "Adobe Suite - Figma"
-        },
-        {
-            "skill": "AJAX - GRAPHQL"
-        },
-        {
-            "skill": "WEBSOCKETS"
-        },
-        {
-            "skill": "FIREBASE"
-        }
-    ],
-    "previewProyects":{
-            "sectionName": "Portfolio",
-            "sectionText": "My recent works",
-            "seeMore": "See more",
-            "url": "/portfolio"
-        }
+    "sectionEducation": {
+        "sectionTitle": "Education",
+        "education": [
+            {
+                "date": "2018-2022",
+                "intitution": "Universidad de Costa Rica",
+                "qualification": "Bachillerato, Informática y tecnología multimedia"
+            },
+            {
+                "date": "2021-2021",
+                "intitution": "Cisco Networking Academy",
+                "qualification": "NDG Linux I"
+            },
+            {
+                "date": "2016-2016",
+                "intitution": "Cisco Networking Academy",
+                "qualification": "CCNA 1 Switch and Routing, Introduction to networks"
+            },
+            {
+                "date": "2015-2015",
+                "intitution": "Cisco Networking Academy",
+                "qualification": "Instructor IT Essentials, PC Hardware and Software"
+            }
+        ]
+    },
+    "sectionExperience": {
+        "sectionTitle": "Experience Labor",
+        "experience": [
+            {
+                "date": "2022-2024",
+                "company": "Business Solutions",
+                "job": "Front-end developer",
+                "tasks": [
+                    {
+                        "task": "Developing and maintaining websites and interfaces for multiple projects, using various technologies such as Angular, WordPress, and PHP."
+                    },
+                    {
+                        "task": "Ensuring the efficiency, functionality, and continuous updating of the company's internal sites and interfaces."
+                    },
+                    {
+                        "task": " Collaborating closely with team members as well as personnel from other areas of the company to ensure the completion and success of the projects."
+                    },
+                    {
+                        "task": " Creating platforms with Vue for the rapid creation of websites."
+                    },
+                    {
+                        "task": "Developing internal company systems using React."
+                    }
+                ]
+            }
+        ]
+    },
+    "sectionSkills": {
+        "sectionTitle": "Technical Skills",
+        "skills": [
+            {
+                "skill": "Responsive web design"
+            },
+            {
+                "skill": "HTML - Markdown"
+            },
+            {
+                "skill": "css - sass"
+            },
+            {
+                "skill": "JAVASCRIPT"
+            },
+            {
+                "skill": "TYPESCRIPT"
+            },
+            {
+                "skill": "VUE "
+            },
+            {
+                "skill": "REACT JS"
+            },
+            {
+                "skill": "ANGULAR"
+            },
+            {
+                "skill": "JAVA"
+            },
+            {
+                "skill": "C#"
+            },
+            {
+                "skill": "PHP"
+            },
+            {
+                "skill": "WORDPRESS"
+            },
+            {
+                "skill": "GIT - GITLAB - BITBUCKET"
+            },
+            {
+                "skill": "AZURE"
+            },
+            {
+                "skill": "NODE JS"
+            },
+            {
+                "skill": "SQL - NOSQL"
+            },
+            {
+                "skill": "Adobe Suite - Figma"
+            },
+            {
+                "skill": "AJAX - GRAPHQL"
+            },
+            {
+                "skill": "WEBSOCKETS"
+            },
+            {
+                "skill": "FIREBASE"
+            }
+        ]
+    },
+    "previewProyects": {
+        "sectionName": "Portfolio",
+        "sectionText": "My recent works",
+        "seeMore": "See more",
+        "url": "/portfolio"
+    }
 }

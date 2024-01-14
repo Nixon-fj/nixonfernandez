@@ -9,9 +9,9 @@ const Resume: React.FC = () => {
     return <div>
         <Presentation />
         <Education />
-        <Skills/>
-        <Experience/>
-        <PreviewProyects/>
+        <Skills />
+        <Experience />
+        <PreviewProyects />
     </div>;
 };
 

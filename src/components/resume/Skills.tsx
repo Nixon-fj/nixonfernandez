@@ -5,15 +5,23 @@ const Skills: React.FC = () => {
 
     const { t } = useTranslation();
 
-    interface skillsText {
-        skill: string;
+    interface sectionSkills {
+        sectionTitle: string,
+        skills: [];
     }
-    const skill: skillsText[] = t('skills', { returnObjects: true });
+    interface skills{
+        skill: string
+    }
+    const sectionContent: sectionSkills = t('sectionSkills', { returnObjects: true });
 
     return <div className='skills'>
-        <h2 id='skills'>Technical Skills</h2>
+        <div className="bgimg-3">
+            <div className="caption">
+                <h2 id='skills'>{sectionContent.sectionTitle}</h2>
+            </div>
+        </div>
         <div className='skills_container'>
-            {skill.map((skill: skillsText, index: number) => (
+            {sectionContent.skills.map((skill: skills, index: number) => (
                 <div key={index} className='skills_container-skill'>
                     <p>{skill.skill}</p>
                 </div>
