@@ -19,6 +19,10 @@
         {
             "name": "Portafolio",
             "url": "/portfolio"
+        },
+        {
+            "name": "Contacto",
+            "url": "nixon.fernandezjimenez@gmail.com"
         }
     ],
     "footer": [

@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         <ul className='footer_container'>
             {headerOptions.map((option: FooterOption, index: number) => (
                 <li key={index}>
-                    <p className='footer_container-subTitle'>{option.name}</p>
+                    <h3>{option.name}</h3>
                     {Array.isArray(option.data) ? (
                         <ul className='footer_container-socialNetwork'>
                             {option.data.map((item, itemIndex) => (
@@ -26,6 +26,8 @@ const Header: React.FC = () => {
                                 </li>
                             ))}
                         </ul>
+                    ) : option.name === 'Email' || option.name === 'Correo' ? (
+                        <a className='footer_container-content' href={`mailto:${option.data}`}>{option.data}</a>
                     ) : (
                         <p className='footer_container-content'>{option.data}</p>
                     )}
