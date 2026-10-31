@@ -58,8 +58,8 @@
     ],
     "presentation": {
         "name": "Nixon Fernandez J.",
-        "carrer": "web developer",
-        "aboutMe": "My proactive approach is reflected in the creation of efficient interfaces and websites. I have collaborated in multidisciplinary teams to develop web platforms, standing out for the timely delivery of innovative solutions. My ability to communicate effectively and my passion for technology drive my search for challenges where I can apply and expand my skills in web development.",
+        "carrer": "Software Developer",
+        "aboutMe": "I'm a Full Stack Developer with over 4 years of professional experience building and maintaining web applications and enterprise software solutions. My experience spans backend development with C# and .NET, frontend development with React and TypeScript, and Salesforce development using Apex, Aura, and Lightning Web Components (LWC). I enjoy solving technical challenges, building reliable applications, and turning requirements into practical software solutions. I'm always looking to expand my knowledge, improve my skills, and take on new challenges in software development.",
         "downloadResume": "Download CV"
     },
     "sectionEducation": {
@@ -91,24 +91,49 @@
         "sectionTitle": "Experience Labor",
         "experience": [
             {
-                "date": "2022-2024",
-                "company": "Business Solutions",
-                "job": "Front-end developer",
+                "date": "2024-2026",
+                "company": "Initium Software",
+                "job": "Full Stack Developer",
                 "tasks": [
                     {
-                        "task": "Developing and maintaining websites and interfaces for multiple projects, using various technologies such as Angular, WordPress, and PHP."
+                        "task": "Developed and maintained enterprise applications using C#, ASP.NET MVC, ASP.NET Core, and SQL Server."
                     },
                     {
-                        "task": "Ensuring the efficiency, functionality, and continuous updating of the company's internal sites and interfaces."
+                        "task": "Developed, maintained, and supported Salesforce applications using Apex, Aura Components, and Lightning Web Components (LWC)."
                     },
                     {
-                        "task": " Collaborating closely with team members as well as personnel from other areas of the company to ensure the completion and success of the projects."
+                        "task": "Implemented custom Salesforce components and functionality for managed packages."
                     },
                     {
-                        "task": " Creating platforms with Vue for the rapid creation of websites."
+                        "task": "Worked on Batch Apex, transaction processing, and backend business logic."
                     },
                     {
-                        "task": "Developing internal company systems using React."
+                        "task": "Managed Salesforce metadata and security configurations, including permission sets and field-level security (FLS), across environments."
+                    },
+                    {
+                        "task": "Troubleshoot application issues, resolved defects affecting system updates, and performed unit and integration testing."
+                    },
+                    {
+                        "task": "Worked on database stored procedure optimization to improve application data operations."
+                    }
+                ]
+            },
+            {
+                "date": "2022-2024",
+                "company": "Business Solutions",
+                "job": "Desarrollador Front-end",
+                "tasks": [
+                    {
+                        "task": "Developed and maintained websites and web applications using Angular, Vue.js, WordPress, and PHP."
+                    },
+                    {
+                        "task": "Built internal administration and sales applications with React and TypeScript, contributing from initial development through production deployment."
+                    },
+                    {
+                        "task": "Developed reusable React components, used hooks, and integrated REST APIs."
+                    },
+                    {
+                        "task": "Collaborated with team members and worked independently to implement features, maintain applications, and resolve technical issues."
                     }
                 ]
             }
@@ -118,13 +143,31 @@
         "sectionTitle": "Technical Skills",
         "skills": [
             {
-                "skill": "Responsive web design"
+                "skill": "C#"
             },
             {
-                "skill": "HTML - Markdown"
+                "skill": ".NET"
             },
             {
-                "skill": "css - sass"
+                "skill": "ASP.NET MVC"
+            },
+            {
+                "skill": "ASP.NET CORE"
+            },
+            {
+                "skill": "APEX"
+            },
+            {
+                "skill": "SALESFORCE AURA COMPONENTS"
+            },
+            {
+                "skill": "SALESFORCE LWC"
+            },
+            {
+                "skill": "SOQL"
+            },
+            {
+                "skill": "SALESFORCE META DATA API"
             },
             {
                 "skill": "JAVASCRIPT"
@@ -133,49 +176,34 @@
                 "skill": "TYPESCRIPT"
             },
             {
-                "skill": "VUE "
-            },
-            {
-                "skill": "REACT JS"
+                "skill": "REACT"
             },
             {
                 "skill": "ANGULAR"
             },
             {
-                "skill": "JAVA"
+                "skill": "VUE.JS"
             },
             {
-                "skill": "C#"
+                "skill": "HTML5"
             },
             {
-                "skill": "PHP"
+                "skill": "CSS3"
             },
             {
-                "skill": "WORDPRESS"
+                "skill": "SQL SERVER"
             },
             {
-                "skill": "GIT - GITLAB - BITBUCKET"
+                "skill": "MONGO DB"
             },
             {
-                "skill": "AZURE"
+                "skill": "SQL"
             },
             {
-                "skill": "NODE JS"
+                "skill": "STORED PROCEDURES"
             },
             {
-                "skill": "SQL - NOSQL"
-            },
-            {
-                "skill": "Adobe Suite - Figma"
-            },
-            {
-                "skill": "AJAX - GRAPHQL"
-            },
-            {
-                "skill": "WEBSOCKETS"
-            },
-            {
-                "skill": "FIREBASE"
+                "skill": "GIT"
             }
         ]
     },

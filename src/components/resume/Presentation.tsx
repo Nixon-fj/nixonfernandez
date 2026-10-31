@@ -14,14 +14,14 @@ const Presentation: React.FC = () => {
     const { t } = useTranslation();
 
     const presentation: presentationText = t('presentation', { returnObjects: true });
-    const pdfUrl = '../devNixonFernandezJimenez.pdf';
+    const pdfUrl = '../CV.pdf';
 
     const handleDownloadPdf = async () => {
         try {
             const response = await fetch(pdfUrl);
             const blob = await response.blob();
 
-            saveAs(blob, 'Nixon-Fernandez-Jimenez.pdf');
+            saveAs(blob, 'NixonFernandezJimenez.pdf');
         } catch (error) {
             console.error('Error al descargar el PDF:', error);
         }

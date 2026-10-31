@@ -24,15 +24,18 @@
             @include displayFlex(space-around);
         }
 
+        div {
+            min-width: 80%;
+        }
+
         h3 {
             font-size: $text-large;
             margin-bottom: 0.5rem;
         }
 
         span {
-            display: block;
+            min-width: 20%;
             font-size: $text-medium;
-            margin-right: 2rem;
             margin-bottom: 1rem;
         }
 
