@@ -12,13 +12,17 @@
         border-radius: 0.5rem;
         border: 1px solid $color-blue;
         z-index: 20;
-        top: 20%;
+        top: 15%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
         text-transform: uppercase;
         @include media-query($m_tablet){
             padding: 1rem 2.5rem;
+        }
+
+        .container{
+            margin-bottom: 2rem;
         }
 
         h2 {
